@@ -9,24 +9,21 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 0; a < 100; a++)
 	{
-		for (b = 48; b <= 57; b++)
+		for (b = 0; b < 100; b++)
 		{
-			if (a <= b)
+			if (a < b)
 			{
-				putchar(a);
-				putchar(b);
-				if (b > a)
+				putchar((a / 10) + 48);
+				putchar((a % 10) + 48);
+				putchar(' ');
+				putchar((b / 10) + 48);
+				putchar((b % 10) + 48);
+				if (a != 98 || b != 98)
 				{
+					putchar(',');
 					putchar(' ');
-					putchar(a);
-					putchar(b);
-					if (a != 57 || b != 57)
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
 			}
 		}
