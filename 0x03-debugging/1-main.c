@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints incoming infinite loop,
- * main - prints avoided infinite loop.
+ * main - prints incoming infinite loop and avoided infinite loop
  * Return: 0 if successful
  */
-
 int main(void)
 {
 	int i;
@@ -20,6 +18,7 @@ int main(void)
 	 *	putchar(i);
 	 * }
 	 */
+
 	printf("Infinite loop avoided! \\0/\n");
 	return (0);
 }
