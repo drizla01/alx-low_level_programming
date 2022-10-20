@@ -2,7 +2,7 @@
 
 /**
  * main - prints incoming infinite loop,
- * avoided infinite loop.
+ * main - prints avoided infinite loop.
  * Return: 0 if successful
  */
 
