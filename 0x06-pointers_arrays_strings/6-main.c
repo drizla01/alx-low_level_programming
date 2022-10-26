@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: 0 always
+ */
+int main(void)
+{
+	char str[] = "Expect the best. Prepare for the worst. Capitalize on what c"
+		"omes.\nhello world! hello-world 012"
+		"3456hello world\thello world.hello world\n";
+
+	char *ptr;
+
+	ptr = cap_string(str);
+	printf("%s", ptr);
+	printf("%s", str);
+	return (0);
+}
