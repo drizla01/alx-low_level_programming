@@ -17,7 +17,7 @@ int find_srt(int num, int root)
 	{
 		return (root);
 	}
-	else if ((root / 2) == num )
+	else if ((root / 2) == num)
 	{
 		return (-1);
 	}
