@@ -10,13 +10,14 @@ int _sqrt_recursion(int n);
  * Return: square root if the number is a perfect square,
  * otherwise return -1
  */
+
 int find_srt(int num, int root)
 {
 	if ((root * root) == num)
 	{
 		return (root);
 	}
-	else if ((root * root) < num || (root * root) > num)
+	else if ((root / 2) == num )
 	{
 		return (-1);
 	}
@@ -32,7 +33,7 @@ int find_srt(int num, int root)
  * n does not have natural sqrt return -1.
  */
 
-int _sqrt_recursive(int n)
+int _sqrt_recursion(int n)
 {
 	int root = 0;
 
@@ -40,11 +41,10 @@ int _sqrt_recursive(int n)
 	{
 		return (-1);
 	}
-	else if (n == 0)
+	else if (n == 1)
 	{
-		return (0);
+		return (1);
 	}
-	else if (n > 0)
-		return (find_srt(n, root));
+	return (find_srt(n, root));
 
 }
