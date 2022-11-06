@@ -15,23 +15,20 @@ int main(void)
 	{
 		if ((nb % 3) == 0 && (nb % 5) == 0)
 		{
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else if ((nb % 3) == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
 		else if ((nb % 5) == 0)
 		{
-			printf("Buzz");
+			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d", nb);
+			printf("%d ", nb);
 		}
-		if (nb == 100)
-			continue;
-		printf(" ");
 	}
 	printf("\n");
 	return (0);
