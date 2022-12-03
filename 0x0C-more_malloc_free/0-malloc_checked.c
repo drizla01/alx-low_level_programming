@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *malloc_checked - a funtion that allocate memory using malloc
+ * *malloc_checked - a function that allocate memory using malloc
  * @b: an integer that designed that value of memory that will be assigned
  * Return: a pointer to the allocated memory, if the malloc fails, the malloc
  * check function should cause normal process termination with a status value
