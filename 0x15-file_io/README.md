@@ -1,6 +1,4 @@
-This directory contains tasks on input/output of file
 
- 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/51/Write_layers.jpg)
 
 
