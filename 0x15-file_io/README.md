@@ -1,8 +1,8 @@
 This directory contains tasks on input/output of file
 
-  <div> 
-    <img src="https://en.wikipedia.org/wiki/Write_(system_call)#/media/File:Write_layers.jpg", alt="input/output steps">
-  </div>
+ 
+<img src="https://en.wikipedia.org/wiki/Write_(system_call)#/media/File:Write_layers.jpg", alt="input/output steps">
+
 
 # General Requirements
 
