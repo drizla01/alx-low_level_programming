@@ -1,8 +1,6 @@
-This directory contains tasks on input/output of file
 
-<div> 
-<img src="">
-</div>
+![](https://upload.wikimedia.org/wikipedia/commons/5/51/Write_layers.jpg)
+
 
 # General Requirements
 
