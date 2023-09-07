@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include "lists.h"
-
+/**
+* print_list - print all element of a list
+* @h: points to the next node
+* Return: the list
+*/
 size_t print_list(const list_t *h)
 {
 	size_t num = 0;
@@ -8,7 +12,7 @@ size_t print_list(const list_t *h)
 
 	if (h)
 	{
-		printf("[%d] %s\n", h->str ? h->len : 0,h->str ? h->str : "(nil)");
+		printf("[%d] %s\n", h->str ? h->len : 0, h->str ? h->str : "(nil)");
 		num++;
 	}
 	if (p)
