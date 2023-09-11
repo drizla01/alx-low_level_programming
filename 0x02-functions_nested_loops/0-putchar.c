@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,8 +5,15 @@
  *
  * Return: return 0
  */
-_putchar(void)
+int main(void)
 {
-    write("");
+    char *text = "Holberton\n";
+    int textLen = 10;
+    int i = 0;
+
+    for (; i < textLen; i++)
+    {
+        _putchar(text[i]);
+    }
     return (0);
 }
